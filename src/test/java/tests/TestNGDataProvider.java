@@ -28,7 +28,7 @@ public class TestNGDataProvider {
 		Select sel = new Select(driver.findElement(By.xpath(".//select[@id='searchDropdownBox']")));
 		sel.selectByVisibleText(cat);
 		driver.findElement(By.xpath(".//input[@id='twotabsearchtextbox']")).sendKeys(val);
-		driver.findElement(By.xpath(".//input[@id='twotabsearchtextbox']")).sendKeys(Keys.ESCAPE);
+		driver.findElement(By.xpath(".//input[@id='twotabsearchtextbox']")).sendKeys(Keys.ENTER);
 		
 	}
 	
