@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestSuite" verbose="1" >	
+  <test name="Regression1">
+  	<parameter name="product" value="One Plus 7"></parameter>   
+    <classes>
+      <class name="indeedtests.TestIndeed"/>
+    </classes>
+  </test>
+</suite>
